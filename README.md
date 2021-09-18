@@ -9,7 +9,7 @@ The main page was designed so that it does not crash until one of the examples a
 
 ## Configuration:
 
-Format: `Config` `Version` `(Platform Stability / Branch)`
+Format: `Software` `Version` `(Platform Stability / Branch)`
 - Safari 15.0 (Release Candidate)
     - WebKit 605.1.15
 - Flutter Web 2.5.0 (Stable)
