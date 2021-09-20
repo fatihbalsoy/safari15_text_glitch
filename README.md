@@ -2,7 +2,7 @@
 
 This project displays examples of code that is capable of crashing Apple Safari 15.0 on iOS 15 and any macOS capable of running Safari 15.
 
-This bug seems to be caused by changes made by Safari 15 which cannot be handled by CanvasKit. During my testing I've found that text with more than 352 characters (on 8GB RAM) crashes Safari 15. No issues are present when the project is compiled with the HTML renderer.
+This bug, [tracked in flutter/flutter issue #89655](https://github.com/flutter/flutter/issues/89655), seems to be caused by changes made by Safari 15 which cannot be handled by CanvasKit. During my testing I've found that text with more than 352 characters (on 8GB RAM) crashes Safari 15. No issues are present when the project is compiled with the HTML renderer.
 
 The main page was designed so that it does not crash until one of the examples are clicked.
 
